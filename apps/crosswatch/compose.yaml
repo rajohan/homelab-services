@@ -1,0 +1,9 @@
+services:
+  crosswatch:
+    image: ghcr.io/cenodude/crosswatch:latest@sha256:6a38f351ef0172ea44d02e709f00e4c2347360599c7d4bf42e4fa159d137702c
+    restart: unless-stopped
+    mem_limit: '1g'
+    pids_limit: 256
+    security_opt:
+      - no-new-privileges:true
+    platform: linux/amd64

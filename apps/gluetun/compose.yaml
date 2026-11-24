@@ -1,0 +1,9 @@
+services:
+  gluetun:
+    image: docker.io/qmcgaw/gluetun:latest@sha256:3c43ec327d7ab2b5f1dc798b92a7640de9a1e1b74a81c9a5143adb383c03d28b
+    restart: unless-stopped
+    mem_limit: '536870912'
+    pids_limit: 256
+    security_opt:
+      - no-new-privileges:true
+    platform: linux/amd64

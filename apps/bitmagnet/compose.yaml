@@ -1,0 +1,9 @@
+services:
+  bitmagnet:
+    image: ghcr.io/bitmagnet-io/bitmagnet@sha256:b6373349a30193b436ce6b05e21f91aa4934074268105dded1f3b065b8c86f19
+    restart: unless-stopped
+    mem_limit: '2147483648'
+    pids_limit: 256
+    security_opt:
+      - no-new-privileges:true
+    platform: linux/amd64

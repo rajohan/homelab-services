@@ -1,0 +1,9 @@
+services:
+  jackett:
+    image: docker.io/linuxserver/jackett:latest@sha256:f65dcf461aa1b41cc88a920fac1b2070649423c6fb107f59daa05b3a79f6935b
+    restart: unless-stopped
+    mem_limit: '1073741824'
+    pids_limit: 256
+    security_opt:
+      - no-new-privileges:true
+    platform: linux/amd64

@@ -1,0 +1,9 @@
+services:
+  aiometadata:
+    image: ghcr.io/cedya77/aiometadata:4.1.0@sha256:c17e1aa7c670055e14dea99087cfe18ff07fa6ea4dfce9c3484830a718e066ce
+    restart: unless-stopped
+    mem_limit: '2147483648'
+    pids_limit: 256
+    security_opt:
+      - no-new-privileges:true
+    platform: linux/amd64

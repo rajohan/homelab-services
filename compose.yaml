@@ -1,0 +1,15 @@
+name: homelab-services
+include:
+  - apps/aiometadata/compose.yaml
+  - apps/aiostreams/compose.yaml
+  - apps/bitmagnet/compose.yaml
+  - apps/comet/compose.yaml
+  - apps/crosswatch/compose.yaml
+  - apps/flaresolverr/compose.yaml
+  - apps/gluetun/compose.yaml
+  - apps/gost/compose.yaml
+  - apps/jackett/compose.yaml
+  - apps/mediaflow/compose.yaml
+  - apps/submaker/compose.yaml
+  - apps/valkey-cache/compose.yaml
+  - apps/valkey-submaker/compose.yaml

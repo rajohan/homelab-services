@@ -1,0 +1,9 @@
+services:
+  aiostreams:
+    image: ghcr.io/viren070/aiostreams:v2.38.1@sha256:1b90bc2fda70f365dff2ce98fc311a24708cca9841efe09aefe309cd4da1fb2c
+    restart: unless-stopped
+    mem_limit: '2147483648'
+    pids_limit: 256
+    security_opt:
+      - no-new-privileges:true
+    platform: linux/amd64

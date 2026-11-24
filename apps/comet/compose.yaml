@@ -1,0 +1,9 @@
+services:
+  comet:
+    image: ghcr.io/g0ldyy/comet:latest@sha256:5153049445a0b85ea6ef877ff4c0d6b1e3f64c59cd6b493b0e6081caad89a209
+    restart: unless-stopped
+    mem_limit: '4294967296'
+    pids_limit: 256
+    security_opt:
+      - no-new-privileges:true
+    platform: linux/amd64
