@@ -7,3 +7,6 @@ services:
     security_opt:
       - no-new-privileges:true
     platform: linux/amd64
+    cpus: 1.0
+    cap_drop:
+      - ALL
