@@ -1,6 +1,6 @@
 services:
   jackett:
-    image: docker.io/linuxserver/jackett:latest@sha256:f65dcf461aa1b41cc88a920fac1b2070649423c6fb107f59daa05b3a79f6935b
+    image: docker.io/linuxserver/jackett:0.25.34@sha256:13f44397c61efc50eabd3e73756ead1e6de89b9315f63dade7b7815459772d3c
     restart: unless-stopped
     mem_limit: '1073741824'
     pids_limit: 256
