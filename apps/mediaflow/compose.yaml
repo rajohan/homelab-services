@@ -1,6 +1,6 @@
 services:
   mediaflow:
-    image: mhdzumair/mediaflow-proxy@sha256:48baa7a425f5cb85733677505f417b2330784c12359de0f5c991b433bc280b87
+    image: docker.io/mhdzumair/mediaflow-proxy:v2.4.9@sha256:48baa7a425f5cb85733677505f417b2330784c12359de0f5c991b433bc280b87
     restart: unless-stopped
     mem_limit: '1610612736'
     pids_limit: 512
