@@ -1,6 +1,6 @@
 services:
   submaker:
-    image: docker.io/xtremexq/submaker:latest@sha256:7d4728a908af9d05d94bdc852611442c249212c3a0051076706483057a8d5876
+    image: docker.io/xtremexq/submaker:1.4.98@sha256:7d4728a908af9d05d94bdc852611442c249212c3a0051076706483057a8d5876
     restart: unless-stopped
     mem_limit: '2147483648'
     pids_limit: 512
