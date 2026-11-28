@@ -1,6 +1,6 @@
 services:
   gost:
-    image: docker.io/gogost/gost:latest@sha256:27f4bda42d13f00ef76044cc0fe2fd900e7b7a4e08f3ff67a2826138f9dc877c
+    image: docker.io/gogost/gost:latest@sha256:53d164fa22ec7a91d1650ead76e050893b1496b522d67f0baad5575660dfca47
     restart: unless-stopped
     mem_limit: '268435456'
     pids_limit: 256
