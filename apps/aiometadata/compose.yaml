@@ -1,6 +1,6 @@
 services:
   aiometadata:
-    image: ghcr.io/cedya77/aiometadata:4.1.0@sha256:c17e1aa7c670055e14dea99087cfe18ff07fa6ea4dfce9c3484830a718e066ce
+    image: ghcr.io/cedya77/aiometadata:4.2.0@sha256:babbf61752f6aefb14b3e413f7e6c7ad15b7555a98959dc586545966dbed3cbb
     restart: unless-stopped
     mem_limit: '2147483648'
     pids_limit: 256
